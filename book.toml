@@ -1,0 +1,22 @@
+[book]
+title = "开源组织的工程化指南"
+authors = ["yufei.li"]
+language = "zh"
+multilingual = false
+src = "src"
+
+[build]
+build-dir = "book"
+create-missing = true
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+curly-quotes = true
+mathjax-support = false
+copy-fonts = true
+no-section-label = false
+git-repository-url = "https://github.com/yufeiminds/book-egoso"
+git-repository-icon = "fa-github"
+edit-url-template = "https://github.com/yufeiminds/book-egoso/edit/main/{path}"
+site-url = "/"

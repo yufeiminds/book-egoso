@@ -1,0 +1,14 @@
+[build]
+  command = "./scripts/mdbook.sh build"
+  publish = "book"
+
+# environment has not been used in actually
+[build.environment]
+  MDBOOK_VERSION = "0.97.3"
+  MDBOOK_ENABLEGITINFO = "true"
+
+[context.production.environment]
+  MDBOOK_ENV = "production"
+
+[context.deploy-preview]
+  command = "./scripts/mdbook.sh build"
