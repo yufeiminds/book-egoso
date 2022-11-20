@@ -13,7 +13,6 @@
     - [发起组织内流程改造]()
     - [度量开发者关联指标]()
 
-
 # 识别开源工程化的基本模式
 
 - [万物皆代码（X as Code）]()
@@ -35,6 +34,11 @@
     - [构建开发者体验的基础设施（DXI）]()
 - [文档工程]()
     - [文档四象限（Diátaxis）]()
+    - [内容交付流水线（Content Delivery Pipeline）]()
+- [阻止蔓延（Prevent Sprawl）]()
+    - [工具蔓延（Tool Sprawl）]()
+    - [配置蔓延（Config Sprawl）]()
+    - [机密蔓延（Secret Sprawl）]()
 
 # 工具是开源治理的二阶加速器
 
